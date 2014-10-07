@@ -1,0 +1,6 @@
+# Partial Tkenv config file -- see $HOME/.tkenvrc as well
+inspector "ONOFF_LOG_Traffic_sim" "ONOFF_LOG_Traffic_sim" "2" "565x483+66+87"
+inspector "MGI_LOG_Traffic_sim" "MGI_LOG_Traffic_sim" "2" "565x483+22+29"
+inspector "TL_Traffic_sim" "TL_Traffic_sim" "2" "565x405+44+58"
+inspector "Queue_Test" "Queue_Test" "2" "565x362+66+87"
+

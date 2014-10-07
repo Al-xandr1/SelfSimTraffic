@@ -1,0 +1,13 @@
+#! /bin/sh
+
+echo
+echo ' Testing parallel SelfSimTrafficForJitterMeasure project with MPI'
+echo
+
+# make sure HOSTNAME is exported as some distors no longer export it by default
+if test "$HOSTNAME" = ""; then
+  export HOSTNAME='hostname'
+fi
+
+
+mpiexec -hostfile mpi.hosts -np 2 ./mpi_latency

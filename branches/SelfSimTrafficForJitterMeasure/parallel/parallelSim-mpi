@@ -1,0 +1,16 @@
+#! /bin/sh
+
+echo
+echo ' Testing parallel SelfSimTrafficForJitterMeasure project with MPI'
+echo
+
+# make sure HOSTNAME is exported as some distors no longer export it by default
+if test "$HOSTNAME" = ""; then
+  export HOSTNAME='hostname'
+fi
+
+#mpiexec -n 3 ../SelfSimTrafficForJitterMeasure -n .. -c FromFile_Source_run -u Cmdenv --parsim-communications-class=cMPICommunications
+
+mpiexec -np 5 ../SelfSimTrafficForJitterMeasure -n ..
+
+#mpiexec -hostfile mpi.hosts -np 10 ../SelfSimTrafficForJitterMeasure -n ..

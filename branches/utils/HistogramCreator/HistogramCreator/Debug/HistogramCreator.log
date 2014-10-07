@@ -1,0 +1,39 @@
+﻿Build started 27.09.2013 13:54:33.
+     1>Project "C:\Users\Alexander\Documents\Visual Studio 2010\Projects\HistogramCreator\HistogramCreator\HistogramCreator.vcxproj" on node 2 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "Debug\HistogramCreator.lastbuildstate".
+       InitializeBuildStatus:
+         Creating "Debug\HistogramCreator.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Debug\HistogramCreator.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\HistogramCreator.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt HistogramCreator.cpp
+         HistogramCreator.cpp
+     1>c:\users\alexander\documents\visual studio 2010\projects\histogramcreator\histogramcreator\histogramcreator.cpp(81): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(110) : see declaration of 'strcat'
+     1>c:\users\alexander\documents\visual studio 2010\projects\histogramcreator\histogramcreator\histogramcreator.cpp(81): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>c:\users\alexander\documents\visual studio 2010\projects\histogramcreator\histogramcreator\histogramcreator.cpp(41): warning C4715: 'isIntoRange' : not all control paths return a value
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\HistogramCreator.exe.embed.manifest.res" Debug\HistogramCreator_manifest.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Alexander\Documents\Visual Studio 2010\Projects\HistogramCreator\Debug\HistogramCreator.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\HistogramCreator.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Alexander\Documents\Visual Studio 2010\Projects\HistogramCreator\Debug\HistogramCreator.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Alexander\Documents\Visual Studio 2010\Projects\HistogramCreator\Debug\HistogramCreator.lib" /MACHINE:X86 Debug\HistogramCreator.exe.embed.manifest.res
+         Debug\HistogramCreator.obj
+         Debug\stdafx.obj
+       Manifest:
+         Deleting file "Debug\HistogramCreator.exe.embed.manifest".
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\HistogramCreator.exe.embed.manifest" /manifest Debug\HistogramCreator.exe.intermediate.manifest
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\HistogramCreator.exe.embed.manifest.res" Debug\HistogramCreator_manifest.rc 
+       LinkEmbedManifest:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Alexander\Documents\Visual Studio 2010\Projects\HistogramCreator\Debug\HistogramCreator.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\HistogramCreator.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Alexander\Documents\Visual Studio 2010\Projects\HistogramCreator\Debug\HistogramCreator.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Alexander\Documents\Visual Studio 2010\Projects\HistogramCreator\Debug\HistogramCreator.lib" /MACHINE:X86 Debug\HistogramCreator.exe.embed.manifest.res
+         Debug\HistogramCreator.obj
+         Debug\stdafx.obj
+         HistogramCreator.vcxproj -> C:\Users\Alexander\Documents\Visual Studio 2010\Projects\HistogramCreator\Debug\HistogramCreator.exe
+       FinalizeBuildStatus:
+         Deleting file "Debug\HistogramCreator.unsuccessfulbuild".
+         Touching "Debug\HistogramCreator.lastbuildstate".
+     1>Done Building Project "C:\Users\Alexander\Documents\Visual Studio 2010\Projects\HistogramCreator\HistogramCreator\HistogramCreator.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.39
